@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №4 - Bootstrap 4</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container my-4">
+        
+        <div class="row order-last order-sm-1 mb-3">
+            <div class="col-12">
+                <div class="custom-block block-1">
+                    <h5>Ряд 1: Перший блок</h5>
+                    <p>На мобільних екранах (xs) цей ряд міняється місцями з четвертим і стрибає вниз.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-12 col-md-4 mb-2 mb-md-0">
+                <div class="custom-block block-2">Блок 2.1 (Ряд 2)</div>
+            </div>
+            <div class="col-12 col-md-4 mb-2 mb-md-0">
+                <div class="custom-block block-2">Блок 2.2 (Ряд 2)</div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="custom-block block-2">Блок 2.3 (Ряд 2)</div>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-6">
+                <div class="custom-block block-3">Блок 3.1 (Займає 50% екрану)</div>
+            </div>
+            <div class="col-3 d-none d-sm-block">
+                <div class="custom-block block-3">Блок 3.2 (Зникає на XS)</div>
+            </div>
+            <div class="col-6 col-sm-3">
+                <div class="custom-block block-3">Блок 3.3</div>
+            </div>
+        </div>
+
+        <div class="row order-first order-sm-4 mb-3">
+            <div class="col-12">
+                <div class="custom-block block-4">
+                    <h5>Ряд 4: Останній блок</h5>
+                    <p>На мобільних екранах (xs) цей ряд міняється місцями з першим і стрибає вгору.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
