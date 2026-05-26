@@ -14,7 +14,8 @@
 }
 
 .block-1 { 
-    background-image: url('../img/bg1.jpg'); 
+    background-image: url('../img/bg1.jpg');
+    background-position: center 30%;
 }
 .row:nth-child(2) .col-12:nth-child(1) .custom-block {
     background-image: url('../img/bg2.jpg');
@@ -32,6 +33,7 @@
 }
 .row:nth-child(3) .col-3:nth-child(2) .custom-block {
     background-image: url('../img/bg6.jpg');
+    background-position: center 30%;
 }
 
 .row:nth-child(3) .col-6:nth-child(3) .custom-block,
@@ -40,5 +42,6 @@
 }
 
 .block-4 { 
-    background-image: url('../img/bg8.jpg'); 
+    background-image: url('../img/bg8.jpg');
+    background-position: center 30%;
 }
